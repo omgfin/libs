@@ -120,7 +120,9 @@
   position: relative;
   transition: all 0.3s ease-in-out;
 }
-.navbar-nav .nav-item.active .nav-link,.navbar-nav .nav-item:hover>.nav-link,#mega-menu-holder .img-box .text:hover {color: var(--p-green);}
+.navbar-nav .nav-item.active .nav-link, .navbar-nav .nav-item:hover > .nav-link, #mega-menu-holder .img-box .text:hover {
+    color: #f74d49 !important;
+}
 /*Menu Color Rose*/
 .main-p-color .navbar-nav .nav-item.active .nav-link, .main-p-color .navbar-nav .nav-item:hover>.nav-link,
 .main-p-color .navbar .dropdown-submenu.dropdown:hover>.dropdown-item,.main-p-color .navbar .mega-dropdown-list li a:hover,

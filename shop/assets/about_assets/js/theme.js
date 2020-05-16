@@ -158,6 +158,38 @@
     
         });
 
+        // -------------------------------- Testimonial Studio Version
+        var sVSlider = $(".studio-client-slider");
+        if (sVSlider.length) {
+            sVSlider.owlCarousel({
+                loop: true,
+                nav: true,
+                navText: ["<i class='flaticon-back'></i>", "<i class='flaticon-next'></i>"],
+                dots: false,
+                autoplay: false,
+                margin: 50,
+                center: true,
+                autoplayTimeout: 4500,
+                smartSpeed: 1000,
+                lazyLoad: true,
+                singleItem: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    768: {
+                        items: 2
+                    },
+                    992: {
+                        items: 3
+                    },
+                    1500: {
+                        items: 4
+                    }
+                }
+            });
+        }
+
 // -------------------------- Sidebar Menu/E-commerce
         var subMenu = $ (".main-menu-list ul li.dropdown-holder>a"),
           expender = $ (".main-menu-list ul li.dropdown-holder .expander");
