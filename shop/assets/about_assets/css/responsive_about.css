@@ -62,7 +62,8 @@
     }
 
     .rogan-hero-one .main-illustration, .consultation-section iframe {
-        width: 100%;
+        /*width: 100%;*/
+        display: none;
     }
 
     .why-choose-us {
@@ -339,7 +340,7 @@
     }
 
     .testimonial-section-classic.style-two {
-        padding: 170px 0 200px;
+        padding: 170px 0 130px;
     }
 
     .banner-large-text .title {
