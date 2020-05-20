@@ -111,14 +111,14 @@
 .navbar .dropdown-submenu.dropdown:hover>.dropdown-item:before { opacity: 0.05;}
 .navbar .iconbar {color: #265196;}
 .navbar-nav .nav-item .nav-link {
-  padding: 10px 0;
-  margin: 0 20px;
-  display: block;
-  font-size: 22px;
-  text-transform: capitalize;
-  color: var(--text-dark);
-  position: relative;
-  transition: all 0.3s ease-in-out;
+    padding: 10px 0;
+    margin: 0 20px;
+    display: block;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: var(--text-dark);
+    position: relative;
+    transition: all 0.3s ease-in-out;
 }
 .navbar-nav .nav-item.active .nav-link, .navbar-nav .nav-item:hover > .nav-link, #mega-menu-holder .img-box .text:hover {
     color: #f74d49 !important;

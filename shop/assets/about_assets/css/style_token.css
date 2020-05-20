@@ -525,6 +525,9 @@ input, textarea {
 .mb-80 {
     margin-bottom: 80px;
 }
+.mb-100 {
+    margin-bottom: 100px;
+}
 
 .mb-150 {
     margin-bottom: 150px;
@@ -8332,9 +8335,9 @@ body .dark-button-one {
 }
 /*--------------------- Theme Solid Inner Banner -----------------*/
 .solid-inner-banner {
-    background: #fafcff;
+    background: #efefef;
     text-align: center;
-    padding: 265px 0 0;
+    padding: 120px 0 0;
 }
 
     .solid-inner-banner.white-bg {
@@ -8342,10 +8345,10 @@ body .dark-button-one {
     }
 
     .solid-inner-banner .page-title {
-        font-family: 'CircularStdmed';
-        font-size: 60px;
-        color: #313131;
-        padding-bottom: 150px;
+        font-size: 40px;
+        color: #505050;
+        padding-bottom: 120px;
+        font-weight: 600;
     }
 
     .solid-inner-banner .page-breadcrumbs {
@@ -8897,12 +8900,9 @@ body .dark-button-one {
 }
 
     .team-minimal .single-team-member .img-box {
-        width: 300px;
-        height: 300px;
-        border-radius: 50%;
-        overflow: hidden;
+        width: 120px;
+        height: 120px;
         margin: 0 auto;
-        position: relative;
     }
 
     .team-minimal .single-team-member .info-meta {
@@ -14963,3 +14963,10 @@ html[lang="ru"] .op-menu-one .ct-language__dropdown li a[data-lang="ru"] {
 .tron_tech_img {
     width: 80px;
 }
+
+.info-meta a {
+    color: #969696;
+}
+    .info-meta a:hover {
+        color: #ff3a46;
+    }
