@@ -525,6 +525,7 @@ input, textarea {
 .mb-80 {
     margin-bottom: 80px;
 }
+
 .mb-100 {
     margin-bottom: 100px;
 }
@@ -14967,6 +14968,14 @@ html[lang="ru"] .op-menu-one .ct-language__dropdown li a[data-lang="ru"] {
 .info-meta a {
     color: #969696;
 }
+
     .info-meta a:hover {
         color: #ff3a46;
     }
+
+.add_token_highlight {
+    background: #ffff;
+    width: 140px !important;
+    padding: 24px;
+    border-radius: 40px;
+}
